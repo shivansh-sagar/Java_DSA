@@ -9,6 +9,7 @@ public class Que2 {
         Scanner sc = new Scanner(System.in);
         int even = 0;
         int odd = 0;
+        int choice = 0;
         do {
             System.out.print("Enter Number : ");
             int num = sc.nextInt();
@@ -19,7 +20,9 @@ public class Que2 {
             }
             System.out.println("Sum of even numbers : " + even);
             System.out.println("Sum of odd numbers : " + odd);
-        } while (true);
+            System.out.println("Do you want to continue? press 1 for yes and 0 for no");
+            choice = sc.nextInt();
+        } while (choice == 0);
 
     }
 
