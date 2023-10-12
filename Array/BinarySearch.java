@@ -1,36 +1,35 @@
 package Array;
 
 public class BinarySearch {
-    public static void main(String[] args) {
-        int arr[] = { 3, 9, 11, 14, 16, 19 };
-        int n = arr.length;
-
+    public static int binarysearch(int number[], int key) {
         int start = 0;
-        int end = n - 1;
-        
-        int tar = 16;
-        int ans = -1;
+        int end = number.length-1;
 
-        while(start<=end) { 
-            int i=0;
+        for (int i = start; i <= end;) {//while(start<=end)
             int mid = (start + end) / 2;
-           
-            if (arr[mid] == tar) {
-                ans = mid;
-                System.out.println(i);
-               
-                break;
-            } else if (arr[mid] > tar) {
-                end = mid - 1;
-            } else {
+            //comparisons
+            if (number[mid] == key) {
+                return mid;
+            }
+            //Right
+            if(number[mid]<key) {
                 start = mid + 1;
             }
-            i++;
-           
+            //Left
+             else {
+                end = mid - 1;
+            }
+            
         }
-        System.out.println(ans);
-        System.out.println("hello");
+        return -1;
+    }
 
+    public static void main(String[] args) {
+        int number[] = {2,4,6,8,10,12,14 };
+        System.out.println(number.length);
+        int key = 8;
+        int index = binarysearch(number, key);
+        System.out.println("index is : "+index);
     }
 
 }
