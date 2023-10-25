@@ -14,8 +14,8 @@ public class LargestAndSmallest {
                 }
             }
         }
-        System.out.println(Largest);
-        System.out.println(smallest);
+        System.out.println("Largest in the array "+Largest);
+        System.out.println("Smallest in the array "+smallest);
 
     }
     public static void main(String[] args) {
