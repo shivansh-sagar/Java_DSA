@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestAndSmallest",
+            "request": "launch",
+            "mainClass": "TwoDArray.LargestAndSmallest",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "Basic2D",
             "request": "launch",
             "mainClass": "TwoDArray.Basic2D",
