@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CheckPalindrom {
     public static boolean checkpalindrom(String Name) {
-       for(int i = 0; i<Name.length(); i++){
+       for(int i = 0; i<Name.length()/2; i++){
         if(Name.charAt(i)!= Name.charAt(Name.length()-1-i)){
             return false;
         }
