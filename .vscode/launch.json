@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment_1",
+            "request": "launch",
+            "mainClass": "TwoDArray.Assignment_1",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "StairCaseSearch",
             "request": "launch",
             "mainClass": "TwoDArray.StairCaseSearch",
