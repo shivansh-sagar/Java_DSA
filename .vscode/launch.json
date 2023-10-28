@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckPalindrom",
+            "request": "launch",
+            "mainClass": "String.CheckPalindrom",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "String.Strings",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2",
+            "request": "launch",
+            "mainClass": "TwoDArray.Assignment_2",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "Assignment_1",
             "request": "launch",
             "mainClass": "TwoDArray.Assignment_1",
