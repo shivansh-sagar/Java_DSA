@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShortestPath",
+            "request": "launch",
+            "mainClass": "String.ShortestPath",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "CheckPalindrom",
             "request": "launch",
             "mainClass": "String.CheckPalindrom",
