@@ -1,5 +1,5 @@
 package TwoDArray;
-
+//TIME COMPLEXITY O(n)
 public class DiagonalSum_Optimized {
     public static int diagonalSum(int matrix[][]) {
         int sum = 0;
