@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ToupperCase",
+            "request": "launch",
+            "mainClass": "String.ToupperCase",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "String_Builder",
+            "request": "launch",
+            "mainClass": "String.String_Builder",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "ComaparToFun",
             "request": "launch",
             "mainClass": "String.ComaparToFun",
