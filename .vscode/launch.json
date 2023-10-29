@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ComaparToFun",
+            "request": "launch",
+            "mainClass": "String.ComaparToFun",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "SubString",
+            "request": "launch",
+            "mainClass": "String.SubString",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "Compare",
+            "request": "launch",
+            "mainClass": "String.Compare",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "ShortestPath",
             "request": "launch",
             "mainClass": "String.ShortestPath",
