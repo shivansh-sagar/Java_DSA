@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckAnagrams",
+            "request": "launch",
+            "mainClass": "String.CheckAnagrams",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "Question2",
+            "request": "launch",
+            "mainClass": "String.Question2",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "LowerCaseVowels",
             "request": "launch",
             "mainClass": "String.LowerCaseVowels",
