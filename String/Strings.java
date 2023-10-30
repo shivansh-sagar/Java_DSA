@@ -13,12 +13,15 @@ public class Strings {
         // name2= sc.nextLine();
         // name = sc.next();
         // System.out.println(name2);
-        String MyName = "Shivanshu Sagar";
-        String Property= " Good";
-        System.out.println(MyName.length());
-        String sentence= MyName + " " + Property;
-        System.out.println(sentence.charAt(0));
-        printletter(MyName);
+        // String MyName = "Shivanshu Sagar";
+        // String Property= " Good";
+        // System.out.println(MyName.length());
+        // String sentence= MyName + " " + Property;
+        // System.out.println(sentence.charAt(0));
+        // printletter(MyName);
+
+        String str1 = "shivanshu sagar".replace("s", "");
+        System.out.println(str1);
 
     }
 }
