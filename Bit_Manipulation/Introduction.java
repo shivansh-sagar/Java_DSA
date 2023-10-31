@@ -10,5 +10,6 @@ public class Introduction {
         System.out.println(~0);
         System.out.println(a<<2);
         System.out.println(b>>1);
+        System.out.println(7&1);
     }
 }

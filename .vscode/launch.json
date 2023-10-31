@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Odd_Even",
+            "request": "launch",
+            "mainClass": "Bit_Manipulation.Odd_Even",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "Introduction",
             "request": "launch",
             "mainClass": "Bit_Manipulation.Introduction",
