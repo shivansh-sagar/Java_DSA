@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Update_ith_bit",
+            "request": "launch",
+            "mainClass": "Bit_Manipulation.Update_ith_bit",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "Clear_ithBit",
             "request": "launch",
             "mainClass": "Bit_Manipulation.Clear_ithBit",
