@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Count_Set_Bit",
+            "request": "launch",
+            "mainClass": "Bit_Manipulation.Count_Set_Bit",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "PowerOf2OrNot",
             "request": "launch",
             "mainClass": "Bit_Manipulation.PowerOf2OrNot",
