@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "xPowx",
+            "request": "launch",
+            "mainClass": "Bit_Manipulation.xPowx",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "FastExponentiation",
             "request": "launch",
             "mainClass": "Bit_Manipulation.FastExponentiation",
