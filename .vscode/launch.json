@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UpperToLower",
+            "request": "launch",
+            "mainClass": "Bit_Manipulation.UpperToLower",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "Adding1",
             "request": "launch",
             "mainClass": "Bit_Manipulation.Adding1",
