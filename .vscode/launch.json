@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AccessModifiers",
+            "request": "launch",
+            "mainClass": "OOPS.AccessModifiers",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "ClassAndObject",
             "request": "launch",
             "mainClass": "OOPS.ClassAndObject",
