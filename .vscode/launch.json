@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Constructor",
+            "request": "launch",
+            "mainClass": "OOPS.Constructor",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "GetterAndSetter",
             "request": "launch",
             "mainClass": "OOPS.GetterAndSetter",
