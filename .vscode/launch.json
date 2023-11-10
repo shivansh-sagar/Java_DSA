@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultiLevelInheritance",
+            "request": "launch",
+            "mainClass": "OOPS.MultiLevelInheritance",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "Inheritance",
             "request": "launch",
             "mainClass": "OOPS.Inheritance",
