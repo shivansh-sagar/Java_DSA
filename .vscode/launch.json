@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShallowAndDeepCopy",
+            "request": "launch",
+            "mainClass": "OOPS.ShallowAndDeepCopy",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "CopyConstructor",
             "request": "launch",
             "mainClass": "OOPS.CopyConstructor",
