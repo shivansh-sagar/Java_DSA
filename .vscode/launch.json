@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "ShallowAndDeepCopy",
             "request": "launch",
             "mainClass": "OOPS.ShallowAndDeepCopy",
