@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MethodOverloading",
+            "request": "launch",
+            "mainClass": "OOPS.MethodOverloading",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "HierarchialInheritance",
             "request": "launch",
             "mainClass": "OOPS.HierarchialInheritance",
