@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Abstraction",
+            "request": "launch",
+            "mainClass": "OOPS.Abstraction",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "MethodOverriding",
             "request": "launch",
             "mainClass": "OOPS.MethodOverriding",
