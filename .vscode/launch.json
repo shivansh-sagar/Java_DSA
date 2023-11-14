@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultipleInheritance_Interface",
+            "request": "launch",
+            "mainClass": "OOPS.MultipleInheritance_Interface",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "Interfaces",
             "request": "launch",
             "mainClass": "OOPS.Interfaces",
