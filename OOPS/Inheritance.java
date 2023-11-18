@@ -5,7 +5,8 @@ public class Inheritance {
         Fish shark = new Fish();
         shark.eat("Pav Bhaji");
         shark.fins= 3;
-        System.out.println(shark.fins);
+        shark.color = " pink";
+        System.out.println(shark.color);
     }
 }
 
