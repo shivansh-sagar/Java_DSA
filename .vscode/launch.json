@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintXpowerN",
+            "request": "launch",
+            "mainClass": "Recursion.PrintXpowerN",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "LastOccurance2",
             "request": "launch",
             "mainClass": "Recursion.LastOccurance2",
