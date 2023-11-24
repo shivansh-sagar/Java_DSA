@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PracticeQue3",
+            "request": "launch",
+            "mainClass": "Recursion2.PracticeQue3",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "Conversion",
+            "request": "launch",
+            "mainClass": "basic.Conversion",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "PracticeQue2Optimize",
+            "request": "launch",
+            "mainClass": "Recursion2.PracticeQue2Optimize",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "PracticeQue2",
             "request": "launch",
             "mainClass": "Recursion2.PracticeQue2",
