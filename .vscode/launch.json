@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PracticeQue1",
+            "request": "launch",
+            "mainClass": "Recursion2.PracticeQue1",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "BinaryString",
             "request": "launch",
             "mainClass": "Recursion2.BinaryString",
