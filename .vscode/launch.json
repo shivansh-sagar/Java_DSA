@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practice05",
+            "request": "launch",
+            "mainClass": "Recursion2.Practice05",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "PracticeQue3",
             "request": "launch",
             "mainClass": "Recursion2.PracticeQue3",
