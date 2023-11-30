@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotatedSorted",
+            "request": "launch",
+            "mainClass": "DivideAndConquer.RotatedSorted",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "basic.TwoSum",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "QuickSort",
             "request": "launch",
             "mainClass": "DivideAndConquer.QuickSort",
