@@ -1,21 +1,18 @@
 package basic;
 public class TwoSum {
-    public static int twoSum( int num[], int target){
-        int sum=0;
-        int out[] =new int[2] ;
+    public static int[] twoSum( int num[], int target){
         
         for(int i=0; i<num.length; i++){
             int start = i+1;
             for(int j=start; j<num.length; j++){
                 
                 if(num[i]+num[j]==target){
-                   
-
-                    return out[]{i,j};
+                   int a[]={i,j};
+                   return a;
                 }
             }
         }
-        return -1;
+        return null;
     }
     public static void main(String[] args) {
         int num[]= {1,2,3,4,5};

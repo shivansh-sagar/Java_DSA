@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RomanToInt",
+            "request": "launch",
+            "mainClass": "basic.RomanToInt",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "RotatedSorted",
             "request": "launch",
             "mainClass": "DivideAndConquer.RotatedSorted",
