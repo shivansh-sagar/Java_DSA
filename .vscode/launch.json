@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "basic.TwoSum",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
             "name": "RomanToInt",
             "request": "launch",
             "mainClass": "basic.RomanToInt",
