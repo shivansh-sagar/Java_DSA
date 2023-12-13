@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BackTrackingInArray",
+            "request": "launch",
+            "mainClass": "Backtacking.BackTrackingInArray",
+            "projectName": "Java_Alpha_1d94e27c"
+        },
+        {
+            "type": "java",
             "name": "TwoSum",
             "request": "launch",
             "mainClass": "basic.TwoSum",
