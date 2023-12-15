@@ -23,22 +23,26 @@ public class NQueen {
         return true;
     }
 
-    public static void nQueen(char board[][], int row) {
+    public static boolean nQueen(char board[][], int row) {
         // base
         if (row == board.length) {
             // printBoard(board);
             count++;
-            return ;
+            return true ;
         }
         // col loop
         for (int j = 0; j < board.length; j++) {
             if (isSafe(board, row, j)) {
                 board[row][j] = 'Q';
-                nQueen(board, row + 1); // function call
+                if(nQueen(board, row + 1)){
+                    return true;
+                }
+                 // function call
                 board[row][j] = 'x'; // Backtracking step
             }
 
         }
+        return false;
     }
 
     public static void printBoard(char board[][]) {
@@ -57,7 +61,7 @@ public class NQueen {
         char board[][] = new char[n][n];
         // initialize
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < n; j++) {   
                 board[i][j] = 'x';
             }
         }
