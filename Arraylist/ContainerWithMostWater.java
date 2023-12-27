@@ -3,15 +3,9 @@ package Arraylist;
 import java.util.ArrayList;
 
 public class ContainerWithMostWater {
-    public static void main(String[] args) {
-        ArrayList<Integer> heights =new ArrayList<>();
-        heights.add(1);heights.add(8);heights.add(6);heights.add(2);heights.add(5);heights.add(4);heights.add(8);heights.add(3);heights.add(7);
-        System.out.println(heights);
-
-
+    public static int  StoreWater(ArrayList<Integer>heights){
         int maxStorage =Integer.MIN_VALUE;
-        
-        for(int i=0; i<heights.size()-1;i++){
+         for(int i=0; i<heights.size()-1;i++){
             for(int j=i+1; j<heights.size(); j++){
                 int h = Integer.min(heights.get(i), heights.get(j));
                 int w= j-i;
@@ -22,6 +16,18 @@ public class ContainerWithMostWater {
                 }
             }
         }
-        System.out.println(maxStorage);
+        return maxStorage;
+    }
+    public static void main(String[] args) {
+        ArrayList<Integer> heights =new ArrayList<>();
+        heights.add(1);heights.add(8);heights.add(6);heights.add(2);heights.add(5);heights.add(4);heights.add(8);heights.add(3);heights.add(7);
+        
+        System.out.println(StoreWater(heights));
+
+
+        
+        
+       
+        
     }
 }
