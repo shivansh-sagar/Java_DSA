@@ -27,15 +27,15 @@ public class ContainerOptimized {
 
     public static void main(String[] args) {
         ArrayList<Integer> heights = new ArrayList<>();
-        heights.add(1);
-        heights.add(8);
-        heights.add(6);
         heights.add(2);
-        heights.add(5);
-        heights.add(4);
-        heights.add(8);
         heights.add(3);
-        heights.add(7);
+        heights.add(4);
+        heights.add(5);
+        heights.add(18);
+        heights.add(17);
+        heights.add(6);
+        // heights.add(3);
+        // heights.add(7);
 
         System.out.println(WaterStored(heights));
     }

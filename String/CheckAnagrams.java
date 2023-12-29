@@ -2,8 +2,8 @@ package String;
 
 public class CheckAnagrams {
     public static void main(String[] args) {
-        String str1= "race";
-        String str2 = "care";
+        String str1= "anagram";
+        String str2 = "nagaram";
         int count=0;
         for(int i=0; i<str1.length(); i++){
             for(int j=0; j<str2.length(); j++){
