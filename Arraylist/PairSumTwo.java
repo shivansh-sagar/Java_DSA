@@ -7,6 +7,7 @@ public class PairSumTwo {
         int lp=0;
         int rp=0;
         int i=0;
+        int n= list.size();
         while (list.get(i) < list.get(i+1)) {
             lp= i+2;
             rp= i+1;
@@ -18,29 +19,20 @@ public class PairSumTwo {
                 return true ;
             }
             //case2
-            if(lp!=list.size()-1){
-                if(list.get(lp)+list.get(rp)>target){
-                    rp--;
+            if(list.get(lp)+list.get(rp)>target){
+                    rp = (n+rp-1)%n;
                 }
-            }else{
-                lp=0;
-            }
-            
             //case3
-            if(rp!=0){
-                if(list.get(lp)+list.get(rp)<target){
-                lp++;
+            if(list.get(lp)+list.get(rp)<target){
+                    lp = (lp+1)%n;
                 }
-            }else{
-                rp=list.size()-1;
-            }
         }
         return false;
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
-        int target= 30;
+        int target = 21;
         list.add(0, 11);
         list.add(1, 15);
         list.add(2, 6);
@@ -48,19 +40,19 @@ public class PairSumTwo {
         list.add(4, 9);
         list.add(5, 10);
         System.out.println(list);
-        int lp=0;
-        int rp=0;
-        int i=0;
-        while (list.get(i) < list.get(i+1)) {
-            lp= i+2;
-            rp= i+1;
+        int lp = 0;
+        int rp = 0;
+        int i = 0;
+        while (list.get(i) < list.get(i + 1)) {
+            lp = i + 2;
+            rp = i + 1;
             i++;
         }
-        if(PairSumFun(list, target)){
+        if (PairSumFun(list, target)) {
             System.out.println("solution exist");
-        }else{
+        } else {
             System.out.println("Solution doesn't exist");
-           
+
         }
     }
 }
