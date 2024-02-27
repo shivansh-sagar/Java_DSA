@@ -6,17 +6,11 @@ import java.util.Collections;
 public class LonelyNumber {
     public static ArrayList<Integer> LonelyNumberfun(ArrayList<Integer> nums, ArrayList<Integer> list){
         Collections.sort(nums);
-        
-        for(int i=1; i<nums.size()-1; i++){
-            if(nums.get(i-1)+1 < nums.get(i) && nums.get(i)+1< nums.get(i+1)){
-                list.add(nums.get(i));
-                System.out.println("hello");
-            }
-            System.out.println("hello");
-        }
         if(nums.size()==1){
             list.add(nums.get(0));
         }
+        
+        
         if(nums.size()>1){
             if(nums.get(0)+1 < nums.get(1)){
                 list.add(nums.get(0));
@@ -24,6 +18,12 @@ public class LonelyNumber {
             if(nums.get(nums.size()-2)+1< nums.get(nums.size()-1)){
                 list.add(nums.get(nums.size()-1));
             };
+        }
+        
+        for(int i=1; i<nums.size()-1; i++){
+            if(nums.get(i-1)+1 < nums.get(i) && nums.get(i)+1< nums.get(i+1)){
+                list.add(nums.get(i));
+            }
         }
         return list;
     }
