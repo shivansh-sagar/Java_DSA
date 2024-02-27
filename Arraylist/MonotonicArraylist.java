@@ -13,7 +13,7 @@ public class MonotonicArraylist {
               if(list.get(i)>list.get(i+1)){
                 decrease = false;
               }
-        }
+        }       
         return increase || decrease;
         
     }
